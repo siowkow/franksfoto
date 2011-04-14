@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<title>Frank Foo Photography</title>
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel = "stylesheet" type = "text/css"  href = "/stylesheets/reset.css" />
+		<link rel = "stylesheet" type = "text/css"  href = "/stylesheets/typography.css" />
+		<link rel = "stylesheet" type = "text/css"  href = "/stylesheets/stylesheet.css" />
+		<%= yield :stylesheet %>
+		
+		<script type = "text/javascript" src = "/javascripts/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="/javascripts/jquery-ui-1.6rc2.packed.js"></script>
+		
+		<%= yield :javascript %>
+				
+	</head>
+	<body>
+		<div align="center">
+			<div class="layout">
+				<div id="header">
+					<div id="brandname"><a href='/' class="navi">FRANK FOO <i>photography</i></a></div>
+					<div id="topnavi">
+						<a href="/web/about_me" class="navi">abt me</a> :
+						<a href="/web/wedding" class="navi">wedding</a> :
+						<a href="/web/studio" class="navi">studio</a> :
+						<!-- <a href="/web/events" class="navi">events</a> : -->
+						<a href="mailto:frank@frankfoophotography.com" class="navi">contact</a> :
+						<a href="http://myleftyourright.blogspot.com/" class="navi" target="_blank">blog</a> 				
+					</div>
+				</div>
+				<br clear=both />
+				<div align="center"><%= yield %></div>
+				<div class="footer">
+					<hr>
+					Copyright &copy; 2010 by Frank Foo Photography
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+

@@ -1,0 +1,75 @@
+#homediv {
+	margin: 10px;
+}
+
+#header {
+	margin: 10px;
+}
+
+#brandname {
+	padding: 5px 5px 5px 5px;
+	font-size: 1.2em;
+	color: #666666;
+	float: left;
+}
+
+#topnavi {
+	float: right;
+	font-size: 1.2em;
+	padding: 5px 15px 5px 5px;
+}
+
+a.navi {
+	color: #666666;
+	text-decoration: none;
+}
+
+a.navi:hover {
+	color: #000000;
+	font-weight: bold;
+}
+
+a.navi_selected {
+	color: #000000;
+	text-decoration: none;
+}
+
+.layout {
+	width: 1000px;
+	padding: 5px;
+	margin-top: 10px;
+	background-color: #eeeeee;
+	border-top: 1px solid #f0f0f0;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #f0f0f0;
+}
+
+.abt_me_text {
+	float: left;
+	padding: 5px;
+	margin-left: 10px;
+	width: 250px;
+	text-align: justify;
+	font-style: italic;
+	font-size: 0.9em;
+	color: #666666;
+}
+
+.abt_me_image {
+	float: right;
+	text-align: left;
+	width: 700px;
+}
+
+.award_txt {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 0.9em;
+	text-align: center;
+	color: #666666;
+}
+
+.footer {
+	clear: both;
+}
